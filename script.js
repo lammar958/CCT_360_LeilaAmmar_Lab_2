@@ -12,3 +12,9 @@ document.getElementById("messageButton").addEventListener("click", function() {
 document.getElementById("pageButton").addEventListener("click", function() {
     window.location.href = "nextpage.html";
 });
+
+
+// changing background color
+document.getElementById("colorButton").addEventListener("click", function() {
+    document.body.style.backgroundColor = "hotpink";
+});
